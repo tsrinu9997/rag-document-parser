@@ -14,13 +14,10 @@ A comprehensive collection of Jupyter notebooks demonstrating four document pars
 ## Project Structure
 
 ```
-document-parsers-rag/
+rag-document-parser/
 ├── docling_document_parsing.ipynb          # Docling tutorial
 ├── unstructured_document_parsing.ipynb     # Unstructured tutorial
 ├── llamaparse_document_parsing.ipynb # LlamaParse basics
-├── llamaparse_document_parsing.ipynb # LlamaParse advanced + RAG
-├── vectorize_document_parsing.ipynb  # Vectorize.io basics
-├── vectorize_document_parsing.ipynb  # Vectorize.io pipelines + RAG
 ├── sample_documents/                       # Test documents (PDF, DOCX, etc.)
 ├── requirements.txt                        # Python dependencies
 └── .env.example                            # Environment variables template
@@ -32,7 +29,7 @@ document-parsers-rag/
 
 ```bash
 git clone <repository-url>
-cd document-parsers-rag
+cd rag-document-parser
 
 # Create virtual environment
 python -m venv .venv
@@ -64,6 +61,7 @@ OPENAI_API_KEY=your-openai-api-key
 # LlamaParse (https://cloud.llamaindex.ai/)
 LLAMA_CLOUD_API_KEY=llx-your-api-key
 
+# Optional
 # Vectorize.io (https://platform.vectorize.io/)
 VECTORIZE_ORGANIZATION_ID=your-org-id
 VECTORIZE_API_KEY=your-api-key
