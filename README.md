@@ -4,8 +4,6 @@ A comprehensive collection of Jupyter notebooks demonstrating four document pars
 
 ## Overview
 
-This project provides hands-on tutorials for parsing documents using:
-
 | Framework | Type | Best For |
 |-----------|------|----------|
 | **Docling** | Open-source (IBM) | Scientific documents, tables |
@@ -251,10 +249,3 @@ pip install vectorize-client
 | Memory Issues | Process documents in batches |
 | Table Extraction | Use `premium_mode` or structured presets |
 
-## License
-
-MIT License
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues and pull requests.
