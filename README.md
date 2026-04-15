@@ -58,17 +58,6 @@ jupyter notebook
 # Required for RAG examples
 OPENAI_API_KEY=your-openai-api-key
 
-# LlamaParse (https://cloud.llamaindex.ai/)
-LLAMA_CLOUD_API_KEY=llx-your-api-key
-
-# Optional
-# Vectorize.io (https://platform.vectorize.io/)
-VECTORIZE_ORGANIZATION_ID=your-org-id
-VECTORIZE_API_KEY=your-api-key
-
-# Optional
-HF_TOKEN=your-huggingface-token
-PINECONE_API_KEY=your-pinecone-key
 ```
 
 ## Notebooks Summary
@@ -237,13 +226,4 @@ pip install llama-parse llama-index
 pip install vectorize-client
 ```
 
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| API Key Errors | Ensure `.env` file exists with valid keys |
-| Timeout on Large PDFs | Increase `job_timeout_in_seconds` |
-| OCR Quality | Use `high_res_ocr=True` or `strategy="hi_res"` |
-| Memory Issues | Process documents in batches |
-| Table Extraction | Use `premium_mode` or structured presets |
 
